@@ -1,6 +1,6 @@
 " Vim syntax highlighting for ProVerif
-" Language:  ProVerif typed pi-calculus
-" Filenames: *.pv
+" Language:   ProVerif typed pi-calculus
+" Filenames:  *.pv
 " Maintainer: Matěj Grabovský <matej dot grabovsky at gmail>
 " Licence:    MIT
 

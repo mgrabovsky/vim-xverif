@@ -1,6 +1,6 @@
 " Vim syntax highlighting for CryptoVerif
-" Language:  CryptoVerif
-" Filenames: *.cv
+" Language:   CryptoVerif
+" Filenames:  *.cv
 " Maintainer: Matěj Grabovský <matej dot grabovsky at gmail>
 " Licence:    MIT
 
