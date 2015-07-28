@@ -26,7 +26,10 @@ syn keyword Macro       AC ACU ACUN all assoc assocU bounded commut commut_group
 syn keyword Conditional if then else
 syn match   Operator    /|\|!\|||\|&&\|<-\|<=\|==>\|:=\|<=(\|)=>/
 syn match   Type        /:\s*\zs\i\+/
-syn region  Comment     start=/(\*/ end=/\*)/ contains=Comment
+syn region  Comment     start=/(\*/ end=/\*)/ contains=cvTodo
+syn keyword cvTodo      contained TODO FIXME NOTE XXX
+
+hi link cvTodo Todo
 
 let b:current_syntax = 'cryptoverif'
 

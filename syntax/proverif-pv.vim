@@ -24,7 +24,10 @@ syn keyword Macro       attacker block data decompData decompDataSelect memberOp
 syn keyword Conditional if then else
 syn match   Operator    /|\|!\|||\|&&\|->\|<->\|<=>\|==>/
 syn match   Type        /:\s*\zs\i\+/
-syn region  Comment     start=/(\*/ end=/\*)/ contains=Comment
+syn region  Comment     start=/(\*/ end=/\*)/ contains=pvTodo
+syn keyword pvTodo      contained TODO FIXME NOTE XXX
+
+hi link pvTodo Todo
 
 let b:current_syntax = 'proverif-pv'
 
