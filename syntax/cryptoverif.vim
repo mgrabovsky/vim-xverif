@@ -24,7 +24,7 @@ syn keyword Macro       AC ACU ACUN all assoc assocU bounded commut commut_group
             \ noninteractive password pred random serial unchanged uniform unique
             \ useful_change
 syn keyword Conditional if then else
-syn match   Operator    /|\|!\|||\|&&\|<=(\=\|)=>\|<-\|==>\|:=/
+syn match   Operator    /||\|&&\|!\|<=(\=\|[)=]=>\|<-\|:=/
 syn match   Type        /:\s*\zs\i\+/
 syn region  Comment     start=/(\*/ end=/\*)/ contains=cvTodo
 syn keyword cvTodo      contained TODO FIXME NOTE XXX

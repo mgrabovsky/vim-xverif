@@ -22,7 +22,7 @@ syn keyword Keyword     among channel choice clauses const def elimtrue equation
 syn keyword Macro       attacker block data decompData decompDataSelect memberOptim
             \ mess private typeConverter
 syn keyword Conditional if then else
-syn match   Operator    /|\|!\|||\|&&\|->\|<->\|<=>\|==>/
+syn match   Operator    /||\|&&\|!\|<[-=]>\|->\|==>/
 syn match   Type        /:\s*\zs\i\+/
 syn region  Comment     start=/(\*/ end=/\*)/ contains=pvTodo
 syn keyword pvTodo      contained TODO FIXME NOTE XXX
