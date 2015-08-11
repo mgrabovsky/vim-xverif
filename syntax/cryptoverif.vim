@@ -26,6 +26,7 @@ syn keyword Macro       AC ACU ACUN all assoc assocU bounded commut commut_group
 syn keyword Conditional if then else
 syn match   Operator    /||\|&&\|!\|<=(\=\|[)=]=>\|<-\|:=/
 syn match   Type        /:\s*\zs\i\+/
+syn region  String      start=/"/ end=/"/ skip=/\\/
 syn region  Comment     start=/(\*/ end=/\*)/ contains=cvTodo
 syn keyword cvTodo      contained TODO FIXME NOTE XXX
 
