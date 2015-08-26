@@ -1,0 +1,1 @@
+This Vim plugin adds support for syntax highlighting [CryptoVerif](http://prosecco.gforge.inria.fr/personal/bblanche/cryptoverif/) (both channels and oracles modes), [ProVerif](http://prosecco.gforge.inria.fr/personal/bblanche/proverif/) (typed π-calculus) and [EasyCrypt](https://www.easycrypt.info/trac/) script files.
