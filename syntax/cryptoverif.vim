@@ -1,6 +1,6 @@
 " Vim syntax highlighting for CryptoVerif
 " Language:   CryptoVerif channels
-" Filenames:  *.cv
+" Filenames:  *.cv, *.cvl
 " Maintainer: Matěj Grabovský <matej dot grabovsky at gmail>
 " Licence:    MIT
 

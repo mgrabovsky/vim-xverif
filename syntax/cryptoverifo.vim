@@ -1,6 +1,6 @@
 " Vim syntax highlighting for CryptoVerif
 " Language:   CryptoVerif oracles
-" Filenames:  *.ocv
+" Filenames:  *.ocv, *.ocvl
 " Maintainer: Matěj Grabovský <matej dot grabovsky at gmail>
 " Licence:    MIT
 
