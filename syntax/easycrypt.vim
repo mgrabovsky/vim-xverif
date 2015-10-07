@@ -1,6 +1,6 @@
 " Vim syntax highlighting for EasyCrypt
 " Language:   EasyCrypt
-" Filenames:  *.ec
+" Filenames:  *.ec, *.eca
 " Maintainer: Matěj Grabovský <matej dot grabovsky at gmail>
 " Licence:    MIT
 
