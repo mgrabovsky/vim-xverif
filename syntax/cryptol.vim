@@ -23,7 +23,7 @@ syn match   Delimiter   /[{}\[\]]/
 syn match   Number      /\<\%(\d\+\|0b[01]\+\|0o[0-7]\+\|0x[0-9a-fA-F]\+\)\>/
 syn region  String      start=/"/ end=/"/ skip=/\\/
 syn region  Comment     start=#/\*# end=#\*/# contains=cryTodo,Comment
-syn region  Comment     start=#//# end=#$# contains=cryTodo,Comment
+syn region  Comment     start=#//# end=#$# contains=cryTodo
 syn keyword cryTodo     contained TODO FIXME NOTE XXX
 
 hi link cryTodo      Todo
